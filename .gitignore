@@ -1,0 +1,14 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local data & generated test outputs (optional: keep CSV if small, ignore cache)
+.vscode/
+*.joblib

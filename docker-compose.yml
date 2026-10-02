@@ -1,0 +1,10 @@
+services:
+  uplift-engine:
+    build: .
+    container_name: saas_uplift_service
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - ENVIRONMENT=production
+      
